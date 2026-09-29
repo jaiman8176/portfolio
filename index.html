@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JAIMAN MAHERIYA | Portfolio</title>
+  <meta name="description" content="Portfolio of JAIMAN MAHERIYA: projects in cloud, DevOps and web development.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">JAIMAN MAHERIYA</a>
+    <nav aria-label="Sections">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero wrap" id="top">
+    <div class="hero-text">
+      <p class="role">Aspiring DevOps engineer</p>
+      <h1>JAIMAN MAHERIYA</h1>
+      <p class="intro">I build and automate things: containers, pipelines and small websites that deploy themselves.</p>
+    </div>
+    <figure class="photo">
+      <img src="photo.jpg" alt="Portrait of JAIMAN MAHERIYA" width="320" height="400" onerror="this.remove()">
+    </figure>
+  </section>
+
+  <main class="wrap">
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>CI/CD pipeline for this site</h3>
+          <p>Every push to GitHub triggers Jenkins, which builds a Docker image, pushes it to Docker Hub and redeploys the container on AWS EC2. This page is the result.</p>
+          <p class="stack">Jenkins, Docker, nginx, AWS EC2, GitHub</p>
+          <a href="https://github.com/jaiman8176/">View source</a>
+        </article>
+        <article class="project">
+          <h3>Project two</h3>
+          <p>One or two sentences on what it does and what you learned building it.</p>
+          <p class="stack">Tools used</p>
+          <a href="#">View source</a>
+        </article>
+        <article class="project">
+          <h3>Project three</h3>
+          <p>One or two sentences on what it does and what you learned building it.</p>
+          <p class="stack">Tools used</p>
+          <a href="#">View source</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl>
+        <dt>Cloud</dt><dd>AWS EC2, security groups, IAM basics</dd>
+        <dt>Automation</dt><dd>Jenkins, Git, shell scripting</dd>
+        <dt>Containers</dt><dd>Docker, Docker Hub, nginx</dd>
+        <dt>Web</dt><dd>HTML, CSS, JavaScript</dd>
+      </dl>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I’m pursuing a BSc IT + Integrated MSc IT focused on Cloud and Application Development, and I became interested in Cloud and DevOps through hands-on work with AWS, Linux, Docker, Jenkins, Kubernetes, and CI/CD. I’m currently looking for a Cloud/DevOps internship where I can apply my skills to real-world projects and continue growing toward a career in Cloud Engineering and DevOps.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="mailto:jaimanjdm17@gmail.com">jaimanjdm17@gmail.com</a></li>
+        <li><a href="https://github.com/jaiman8176">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jaiman-maheriya-1624a0378">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Deployed automatically. Build <strong>__BUILD_ID__</strong>, loaded <span id="loaded">-</span></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
