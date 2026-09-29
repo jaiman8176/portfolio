@@ -53,18 +53,43 @@ Web Application
 8. The existing container is stopped/removed if required.
 9. A new container is started.
 10. The updated website becomes available.
-<!-- 
+
+## git repo
+
+<img src="/screenshots/git repo.png">
+
+## git webhook
+
+Configuration:
+
+<img src="/screenshots/git webhook 2.png">
+
+Final push :
+
+<img src="/screenshots/git webhook 1.png">
+
+## Jenkins EC2 Agent
+
+<img src="/screenshots/jenkins ec2 agent.png">
+
 ## 🚀 Pipeline
 
-[Add screenshot of Jenkins pipeline here]
+<img src="/screenshots/jenkins pipeline.png">
 
 ## 🐳 Docker
 
-[Add screenshot of Docker image/container here]
+Docker images: 
+
+<img src="/screenshots/ec2 docker image.png">
+
+Docker container:
+
+<img src="/screenshots/ec2 docker container.png">
 
 ## 🌐 Application
 
-[Add screenshot of your website here]
+<img src="/screenshots/web page1.png">
+<img src="/screenshots/web page2.png">
 
 ## 📊 Results
 
@@ -80,4 +105,4 @@ Git Push → Build → Docker Image → Container Deployment
 - Working with EC2 agents
 - Docker image creation
 - Docker container deployment
-- CI/CD concepts -->
+- CI/CD concepts
